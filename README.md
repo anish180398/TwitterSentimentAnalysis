@@ -13,7 +13,8 @@ cache.py - For caching purposes in effort to get things to run faster.
 
 db-truncate.py - A script to truncate the infinitely-growing sqlite database. You will get about 3.5 millionish tweets per day, depending on how fast you can process. You can keep these, but, as the database grows, search times will dramatically suffer.
 
-#Steps To Do
+Steps To Do
+
 1.Clone repo
 2.install requirements.txt using pip install -r requirements.txt
 3.Fill in your Twitter App credentials to twitter_stream.py. Go to apps.twitter.com to set that up if you need to.
